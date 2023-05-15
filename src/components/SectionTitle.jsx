@@ -1,7 +1,6 @@
-export default function SectionTitle({ children, title }) {
+
+export default function SectionTitle({ title }) {
     return (
-        <div>
-            
-        </div>
+        <h1>{title}</h1>
     )
 }
